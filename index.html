@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>home</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header-section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a href="index.html">
+              <img
+                class="navbar-brand rokto-sondhani-logo"
+                src="icons/logo.png"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon">MENU</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item nav-cus-item">
+                  <a
+                    class="nav-link active nav-cus-link"
+                    aria-current="page"
+                    href="index.html"
+                    >হোম</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="platelet.html"
+                    >প্লাটিলেট</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="volunteer.html"
+                    >ভলান্টিয়ার্স</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="organization.html">
+                    সহযোগী সংগঠন</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="blog.html">
+                    ব্লগ</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="login.html">
+                    লগইন</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="registration.html">
+                    রেজিস্ট্রেশন</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- home banner -->
+    <section class="home-banner-section">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-6">
+            <h2>রক্তসন্ধানী বন্ধু খুঁজুন...</h2>
+            <form action="">
+              <div class="form-group">
+                <select
+                  class="form-select form-select-lg mb-3"
+                  aria-label=".form-select-lg"
+                >
+                  <option selected>রক্তের গ্রুপ নির্বাচন করুন</option>
+                  <option value="A+">A+</option>
+                  <option value="A-">A-</option>
+                  <option value="B+">B+</option>
+                  <option value="B-">B-</option>
+                  <option value="O+">O+</option>
+                  <option value="O-">O-</option>
+                  <option value="AB+">AB+</option>
+                  <option value="AB-">AB-</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select
+                  class="form-select form-select-lg mb-3"
+                  aria-label=".form-select-lg"
+                >
+                  <option selected>এলাকা নির্বাচন করুন</option>
+                  <option value="পঞ্চগড়">পঞ্চগড়</option>
+                  <option value="ঠাকুরগাঁও">ঠাকুরগাঁও</option>
+                  <option value="দিনাজপুর ">দিনাজপুর</option>
+                  <option value="রংপুর">রংপুর</option>
+                  <option value="ঢাকা">ঢাকা</option>
+                  <option value="কুড়িগ্রাম">কুড়িগ্রাম</option>
+                  <option value="লালমনিরহাট">লালমনিরহাট</option>
+                  <option value="নীলফামারী">নীলফামারী</option>
+                  <option value="গাইবান্ধা">গাইবান্ধা</option>
+                  <option value="চট্টগ্রাম">চট্টগ্রাম</option>
+                  <option value="রাজশাহী">রাজশাহী</option>
+                  <option value="সিলেট">সিলেট</option>
+                  <option value="যশোর">যশোর</option>
+                  <option value="ময়মনসিংহ">ময়মনসিংহ</option>
+                  <option value="কুমিল্লা">কুমিল্লা</option>
+                  <option value="বরিশাল">বরিশাল</option>
+                  <option value="ফরিদপুর">ফরিদপুর</option>
+                  <option value="বগুড়া">বগুড়া</option>
+                  <option value="পাবনা">পাবনা</option>
+                  <option value="রাঙ্গামাটি">রাঙ্গামাটি</option>
+                  <option value="কুষ্টিয়া">কুষ্টিয়া</option>
+                  <option value="নোয়াখালী">নোয়াখালী</option>
+                  <option value="খুলনা">খুলনা</option>
+                  <option value="টাঙ্গাইল">টাঙ্গাইল</option>
+                  <option value="ভোলা">ভোলা</option>
+                  <option value="বান্দরবান">বান্দরবান</option>
+                  <option value="চাঁদপুর">চাঁদপুর</option>
+                  <option value="হবিগঞ্জ">হবিগঞ্জ</option>
+                  <option value="লক্ষীপুর">লক্ষীপুর</option>
+                  <option value="বরগুনা">বরগুনা</option>
+                  <option value="ঝালকাঠি">ঝালকাঠি</option>
+                  <option value="পিরোজপুর">পিরোজপুর</option>
+                  <option value="পটুয়াখালী">পটুয়াখালী</option>
+                  <option value="ঝিনাইদহ">ঝিনাইদহ</option>
+                  <option value="নড়াইল">নড়াইল</option>
+                  <option value="মাগুরা">মাগুরা</option>
+                  <option value="সাতক্ষিরা">সাতক্ষিরা</option>
+                  <option value="বাগেরহাট">বাগেরহাট</option>
+                  <option value="চুয়াডাঙ্গা">চুয়াডাঙ্গা</option>
+                  <option value="মেহেরপুর">মেহেরপুর</option>
+                  <option value="সিরাজগঞ্জ">সিরাজগঞ্জ</option>
+                  <option value="জয়পুরহাট">জয়পুরহাট</option>
+                  <option value="নাটোর">নাটোর</option>
+                  <option value="নওগাঁ">নওগাঁ</option>
+                  <option value="চাঁপাইনবাবগঞ্জ">চাঁপাইনবাবগঞ্জ</option>
+                  <option value="খাগড়াছড়ি">খাগড়াছড়ি</option>
+                  <option value="ফেনী">ফেনী</option>
+                  <option value="ব্রাহ্মণবাড়ীয়া">ব্রাহ্মণবাড়ীয়া</option>
+                  <option value="সুনামগঞ্জ">সুনামগঞ্জ</option>
+                  <option value="কক্সবাজার">কক্সবাজার</option>
+                  <option value="মৌলভীবাজার">মৌলভীবাজার</option>
+                  <option value="গোপালগঞ্জ">গোপালগঞ্জ</option>
+                  <option value="শরীয়তপুর">শরীয়তপুর</option>
+                  <option value="মাদারীপুর">মাদারীপুর</option>
+                  <option value="রাজবাড়ী">রাজবাড়ী</option>
+                  <option value="গাজীপুর">গাজীপুর</option>
+                  <option value="কিশোরগঞ্জ">কিশোরগঞ্জ</option>
+                  <option value="জামালপুর">জামালপুর</option>
+                  <option value="শেরপুর">শেরপুর</option>
+                  <option value="নেত্রকোনা">নেত্রকোনা</option>
+                  <option value="মুন্সীগঞ্জ">মুন্সীগঞ্জ</option>
+                  <option value="নরসিংদী">নরসিংদী</option>
+                  <option value="নারায়ণগঞ্জ">নারায়ণগঞ্জ</option>
+                  <option value="মানিকগঞ্জ">মানিকগঞ্জ</option>
+
+                  <option value="অন্যান্য">অন্যান্য</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-cus-one">খুঁজুন</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <h2>প্লাটিলেট - রক্তসন্ধানী বন্ধু খুঁজুন...</h2>
+            <form action="">
+              <div class="form-group">
+                <select
+                  class="form-select form-select-lg mb-3"
+                  aria-label=".form-select-lg"
+                >
+                  <option selected>রক্তের গ্রুপ নির্বাচন করুন</option>
+                  <option value="A+">A+</option>
+                  <option value="A-">A-</option>
+                  <option value="B+">B+</option>
+                  <option value="B-">B-</option>
+                  <option value="O+">O+</option>
+                  <option value="O-">O-</option>
+                  <option value="AB+">AB+</option>
+                  <option value="AB-">AB-</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select
+                  class="form-select form-select-lg mb-3"
+                  aria-label=".form-select-lg"
+                >
+                  <option selected>এলাকা নির্বাচন করুন</option>
+                  <option value="পঞ্চগড়">পঞ্চগড়</option>
+                  <option value="ঠাকুরগাঁও">ঠাকুরগাঁও</option>
+                  <option value="দিনাজপুর ">দিনাজপুর</option>
+                  <option value="রংপুর">রংপুর</option>
+                  <option value="ঢাকা">ঢাকা</option>
+                  <option value="কুড়িগ্রাম">কুড়িগ্রাম</option>
+                  <option value="লালমনিরহাট">লালমনিরহাট</option>
+                  <option value="নীলফামারী">নীলফামারী</option>
+                  <option value="গাইবান্ধা">গাইবান্ধা</option>
+                  <option value="চট্টগ্রাম">চট্টগ্রাম</option>
+                  <option value="রাজশাহী">রাজশাহী</option>
+                  <option value="সিলেট">সিলেট</option>
+                  <option value="যশোর">যশোর</option>
+                  <option value="ময়মনসিংহ">ময়মনসিংহ</option>
+                  <option value="কুমিল্লা">কুমিল্লা</option>
+                  <option value="বরিশাল">বরিশাল</option>
+                  <option value="ফরিদপুর">ফরিদপুর</option>
+                  <option value="বগুড়া">বগুড়া</option>
+                  <option value="পাবনা">পাবনা</option>
+                  <option value="রাঙ্গামাটি">রাঙ্গামাটি</option>
+                  <option value="কুষ্টিয়া">কুষ্টিয়া</option>
+                  <option value="নোয়াখালী">নোয়াখালী</option>
+                  <option value="খুলনা">খুলনা</option>
+                  <option value="টাঙ্গাইল">টাঙ্গাইল</option>
+                  <option value="ভোলা">ভোলা</option>
+                  <option value="বান্দরবান">বান্দরবান</option>
+                  <option value="চাঁদপুর">চাঁদপুর</option>
+                  <option value="হবিগঞ্জ">হবিগঞ্জ</option>
+                  <option value="লক্ষীপুর">লক্ষীপুর</option>
+                  <option value="বরগুনা">বরগুনা</option>
+                  <option value="ঝালকাঠি">ঝালকাঠি</option>
+                  <option value="পিরোজপুর">পিরোজপুর</option>
+                  <option value="পটুয়াখালী">পটুয়াখালী</option>
+                  <option value="ঝিনাইদহ">ঝিনাইদহ</option>
+                  <option value="নড়াইল">নড়াইল</option>
+                  <option value="মাগুরা">মাগুরা</option>
+                  <option value="সাতক্ষিরা">সাতক্ষিরা</option>
+                  <option value="বাগেরহাট">বাগেরহাট</option>
+                  <option value="চুয়াডাঙ্গা">চুয়াডাঙ্গা</option>
+                  <option value="মেহেরপুর">মেহেরপুর</option>
+                  <option value="সিরাজগঞ্জ">সিরাজগঞ্জ</option>
+                  <option value="জয়পুরহাট">জয়পুরহাট</option>
+                  <option value="নাটোর">নাটোর</option>
+                  <option value="নওগাঁ">নওগাঁ</option>
+                  <option value="চাঁপাইনবাবগঞ্জ">চাঁপাইনবাবগঞ্জ</option>
+                  <option value="খাগড়াছড়ি">খাগড়াছড়ি</option>
+                  <option value="ফেনী">ফেনী</option>
+                  <option value="ব্রাহ্মণবাড়ীয়া">ব্রাহ্মণবাড়ীয়া</option>
+                  <option value="সুনামগঞ্জ">সুনামগঞ্জ</option>
+                  <option value="কক্সবাজার">কক্সবাজার</option>
+                  <option value="মৌলভীবাজার">মৌলভীবাজার</option>
+                  <option value="গোপালগঞ্জ">গোপালগঞ্জ</option>
+                  <option value="শরীয়তপুর">শরীয়তপুর</option>
+                  <option value="মাদারীপুর">মাদারীপুর</option>
+                  <option value="রাজবাড়ী">রাজবাড়ী</option>
+                  <option value="গাজীপুর">গাজীপুর</option>
+                  <option value="কিশোরগঞ্জ">কিশোরগঞ্জ</option>
+                  <option value="জামালপুর">জামালপুর</option>
+                  <option value="শেরপুর">শেরপুর</option>
+                  <option value="নেত্রকোনা">নেত্রকোনা</option>
+                  <option value="মুন্সীগঞ্জ">মুন্সীগঞ্জ</option>
+                  <option value="নরসিংদী">নরসিংদী</option>
+                  <option value="নারায়ণগঞ্জ">নারায়ণগঞ্জ</option>
+                  <option value="মানিকগঞ্জ">মানিকগঞ্জ</option>
+                  <option value="অন্যান্য">অন্যান্য</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-cus-two">খুঁজুন</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- registration button section -->
+    <section class="registration-button-section">
+      <div class="container">
+        <div class="rokto-sondhani-registration-button">
+          <a class="btn btn-cus" href="registration.html"
+            >রক্তসন্ধানী বন্ধু হতে রেজিস্ট্রেশন করুন</a
+          >
+        </div>
+        <div class="platelet-registration-button">
+          <p>
+            প্লাটিলেট ডোনার হতে চাইলে
+            <a class="btn btn-cus" href="platelet.html">রেজিস্ট্রেশন করুন</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- notice section -->
+    <section class="notice-section">
+      <div class="container">
+        <div class="notice-board text-center">
+          <p>
+            <span class="notice-text">নোটিশঃ</span> রক্তসন্ধানী সাথে কাজ করতে চাইলে, রক্তসন্ধানী
+            সম্পর্কে জানতে যোগাযোগ করুন
+            <a
+              href="tel:01716626487, 01778951824
+            "
+              ><span class="phone-number"> 000000000, 00000000</span></a
+            >
+          </p>
+          <p>
+            <a class="btn btn-danger btn-cus" target="_blank" href="/about.html"
+              >রক্তসন্ধানী সম্পর্কে বিস্তারিত জানতে ক্লিক করুন
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-left">
+              <p>&copy; 2019-2021 রক্তসন্ধানী || all Right reserved</p>
+            </div>
+          </div>
+          <div class="col-md-6 text-right">
+            <div class="footer-right text-right">
+              <p>
+                Developed By
+                <a target="_blank" href="https://coderitsolution.com/"
+                  >Mohiuddin Mohi</a
+                >
+                <span>&</span>
+                <a href="">Rajib Hossen</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

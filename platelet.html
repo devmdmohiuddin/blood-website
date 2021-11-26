@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Platelet</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="header-section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a href="index.html">
+              <img
+                class="navbar-brand rokto-sondhani-logo"
+                src="icons/logo.png"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon">MENU</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item nav-cus-item">
+                  <a
+                    class="nav-link active nav-cus-link"
+                    aria-current="page"
+                    href="index.html"
+                    >হোম</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="platelet.html"
+                    >প্লাটিলেট</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="volunteer.html"
+                    >ভলান্টিয়ার্স</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="organization.html">
+                    সহযোগী সংগঠন</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="blog.html">
+                    ব্লগ</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="login.html">
+                    লগইন</a
+                  >
+                </li>
+                <li class="nav-item nav-cus-item">
+                  <a class="nav-link nav-cus-link" aria-current="page" href="registration.html">
+                    রেজিস্ট্রেশন</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- platelet banner section -->
+    <section class="platelet-banner-section">
+      <div class="container">
+        <div class="row gx-5">
+          <div class="col-lg-6">
+            <h2>প্লাটিলেট - রক্তসন্ধানী বন্ধু খুঁজুন...</h2>
+            <form action="">
+              <div class="form-group">
+                <select
+                  class="form-select form-select-lg mb-3"
+                  aria-label=".form-select-lg"
+                >
+                  <option selected>রক্তের গ্রুপ নির্বাচন করুন</option>
+                  <option value="A+">A+</option>
+                  <option value="A-">A-</option>
+                  <option value="B+">B+</option>
+                  <option value="B-">B-</option>
+                  <option value="O+">O+</option>
+                  <option value="O-">O-</option>
+                  <option value="AB+">AB+</option>
+                  <option value="AB-">AB-</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <select
+                  class="form-select form-select-lg mb-3"
+                  aria-label=".form-select-lg"
+                >
+                  <option selected>এলাকা নির্বাচন করুন</option>
+                  <option value="পঞ্চগড়">পঞ্চগড়</option>
+                  <option value="ঠাকুরগাঁও">ঠাকুরগাঁও</option>
+                  <option value="দিনাজপুর ">দিনাজপুর</option>
+                  <option value="রংপুর">রংপুর</option>
+                  <option value="ঢাকা">ঢাকা</option>
+                  <option value="কুড়িগ্রাম">কুড়িগ্রাম</option>
+                  <option value="লালমনিরহাট">লালমনিরহাট</option>
+                  <option value="নীলফামারী">নীলফামারী</option>
+                  <option value="গাইবান্ধা">গাইবান্ধা</option>
+                  <option value="চট্টগ্রাম">চট্টগ্রাম</option>
+                  <option value="রাজশাহী">রাজশাহী</option>
+                  <option value="সিলেট">সিলেট</option>
+                  <option value="যশোর">যশোর</option>
+                  <option value="ময়মনসিংহ">ময়মনসিংহ</option>
+                  <option value="কুমিল্লা">কুমিল্লা</option>
+                  <option value="বরিশাল">বরিশাল</option>
+                  <option value="ফরিদপুর">ফরিদপুর</option>
+                  <option value="বগুড়া">বগুড়া</option>
+                  <option value="পাবনা">পাবনা</option>
+                  <option value="রাঙ্গামাটি">রাঙ্গামাটি</option>
+                  <option value="কুষ্টিয়া">কুষ্টিয়া</option>
+                  <option value="নোয়াখালী">নোয়াখালী</option>
+                  <option value="খুলনা">খুলনা</option>
+                  <option value="টাঙ্গাইল">টাঙ্গাইল</option>
+                  <option value="ভোলা">ভোলা</option>
+                  <option value="বান্দরবান">বান্দরবান</option>
+                  <option value="চাঁদপুর">চাঁদপুর</option>
+                  <option value="হবিগঞ্জ">হবিগঞ্জ</option>
+                  <option value="লক্ষীপুর">লক্ষীপুর</option>
+                  <option value="বরগুনা">বরগুনা</option>
+                  <option value="ঝালকাঠি">ঝালকাঠি</option>
+                  <option value="পিরোজপুর">পিরোজপুর</option>
+                  <option value="পটুয়াখালী">পটুয়াখালী</option>
+                  <option value="ঝিনাইদহ">ঝিনাইদহ</option>
+                  <option value="নড়াইল">নড়াইল</option>
+                  <option value="মাগুরা">মাগুরা</option>
+                  <option value="সাতক্ষিরা">সাতক্ষিরা</option>
+                  <option value="বাগেরহাট">বাগেরহাট</option>
+                  <option value="চুয়াডাঙ্গা">চুয়াডাঙ্গা</option>
+                  <option value="মেহেরপুর">মেহেরপুর</option>
+                  <option value="সিরাজগঞ্জ">সিরাজগঞ্জ</option>
+                  <option value="জয়পুরহাট">জয়পুরহাট</option>
+                  <option value="নাটোর">নাটোর</option>
+                  <option value="নওগাঁ">নওগাঁ</option>
+                  <option value="চাঁপাইনবাবগঞ্জ">চাঁপাইনবাবগঞ্জ</option>
+                  <option value="খাগড়াছড়ি">খাগড়াছড়ি</option>
+                  <option value="ফেনী">ফেনী</option>
+                  <option value="ব্রাহ্মণবাড়ীয়া">ব্রাহ্মণবাড়ীয়া</option>
+                  <option value="সুনামগঞ্জ">সুনামগঞ্জ</option>
+                  <option value="কক্সবাজার">কক্সবাজার</option>
+                  <option value="মৌলভীবাজার">মৌলভীবাজার</option>
+                  <option value="গোপালগঞ্জ">গোপালগঞ্জ</option>
+                  <option value="শরীয়তপুর">শরীয়তপুর</option>
+                  <option value="মাদারীপুর">মাদারীপুর</option>
+                  <option value="রাজবাড়ী">রাজবাড়ী</option>
+                  <option value="গাজীপুর">গাজীপুর</option>
+                  <option value="কিশোরগঞ্জ">কিশোরগঞ্জ</option>
+                  <option value="জামালপুর">জামালপুর</option>
+                  <option value="শেরপুর">শেরপুর</option>
+                  <option value="নেত্রকোনা">নেত্রকোনা</option>
+                  <option value="মুন্সীগঞ্জ">মুন্সীগঞ্জ</option>
+                  <option value="নরসিংদী">নরসিংদী</option>
+                  <option value="নারায়ণগঞ্জ">নারায়ণগঞ্জ</option>
+                  <option value="মানিকগঞ্জ">মানিকগঞ্জ</option>
+                  <option value="অন্যান্য">অন্যান্য</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <button class="btn btn-cus-platelet">খুঁজুন</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <div class="platelet-registration">
+              <p>
+                প্লাটিলেট ডোনার হতে চাইলে
+                <a class="btn btn-cus-platelet-registration" href=""
+                  >রেজিস্ট্রেশন করুন</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- platelet information section -->
+    <section class="platelet-information-section">
+      <div class="container">
+        <div class="card text-center platelet-cus-card">
+          <h4 class="card-header platelet-cus-card-header">একটু জেনে নিন...</h4>
+          <div class="card-body">
+            <p class="card-text">
+              যারা শুধু প্লাটিলেট/অণুচক্রিকা প্রদান করেন আমরা জানি ১৫ দিন পরপর
+              প্লাটিলেট দেয়া যায়। কিন্তু আমাদের আবহাওয়া পরিবেশ ও খাদ্যাভ্যাস
+              এবং জীবনাচরণের ভিত্তিতে মাসে ১ বার দেয়াই উত্তম। সে হিসেবে
+              রক্তবন্ধুতে ৩০ দিন পরপর প্লাটিলেট দিতে প্রস্তুত প্লাটিলেট দাতাদের
+              লিস্টে দেখানো হবে। ৩০ দিনের কম হলে নাম কাটা অবস্থায় দেখা যাবে। তবে
+              কারো শরীর স্বাস্থ্য ভালো হলে এবং খুব জরুরি রোগির ক্ষেত্রে ১৫-২০
+              দিন পরই চাইলে দিতে পারেন। ঢাকা, কুমিল্লা, সিলেট ও চট্টগ্রাম এর
+              বাইরে যেহেতু এফেরেসিস এর মাধ্যমে শুধু প্লাটিলেট দেয়ার সুযোগ নেই
+              তাই আপাতত এই চারটি জেলা যুক্ত করা হলো। আশেপাশের জেলার যারা এই
+              চারটি লোকেশনে প্লাটিলেট দিতে পারবেন তারাও রেজিস্ট্রেশন করুন।
+              প্রতিবার প্লাটিলেট দেয়ার পর লগইন করে তারিখ আপডেট করে দিবেন।
+              অন্যকোন জেলায় এফেরেসিস মেশিনের মাধ্যমে শুধু প্লাটিলেট/অণুচক্রিকা
+              নেয়ার ব্যবস্থা চালু হলে আমাদের জানাবেন, আমরা সেই জেলা যুক্ত করে
+              দিবো।
+            </p>
+            <p>
+              প্লাটিলেট ডোনারের যোগ্যতাঃ বয়স কমপক্ষে ১৮, ওজন ৬০ কেজি ও ভেইন বা
+              রগ স্পষ্ট/ তুলনামূলক মোটা হতে হবে। হিমোগ্লোবিন কমপক্ষে ১২.৫ ও
+              প্লাটিলেট কাউন্ট ন্যূনতম ২,২০,০০০ (দুই লক্ষ বিশ হাজার) হতে হবে। যা
+              হাসপাতালে চেক করে নেয়া হবে।
+            </p>
+
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              বিস্তারিত জানতে ক্লিক করুন
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="staticBackdrop"
+              data-bs-backdrop="static"
+              data-bs-keyboard="false"
+              tabindex="-1"
+              aria-labelledby="staticBackdropLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">
+                      একটু জেনে নিন...
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body modal-body-cus-platelet">
+                    <p class="text">
+                      রক্তে অনেক উপাদান থাকে। প্লাটিলেট রক্তের একটা উপাদান
+                      মাত্র। প্লাটিলেট বা অণুচক্রিকা রক্তের একটি গুরুত্বপূর্ণ
+                      কণিকা, যা রক্ত জমাট বাঁধার জন্য জরুরি। রক্তে স্বাভাবিক
+                      প্লাটিলেটের সংখ্যা হলো প্রতি ঘন মিমি রক্তে দেড় লাখ থেকে
+                      সাড়ে চার লাখ। নানা কারণেই এর সংখ্যা কমে আসতে পারে, আর তখন
+                      রক্তক্ষরণের ঝুঁকি যায় বেড়ে। যেমন প্লাটিলেট এক লাখের কম
+                      হলে অস্ত্রোপচার না করারই সিদ্ধান্ত নেওয়া হয়। কেননা
+                      কাটা-ছেঁড়া হলে রক্তক্ষরণ বন্ধ করা কঠিন হয়। প্লাটিলেট ২০
+                      হাজারের নিচে নেমে এলে কোনো আঘাত ছাড়াই রক্তক্ষরণ হতে পারে,
+                      যেমন নাক বা দাঁতের মাড়িতে রক্তপাত, মলের সঙ্গে রক্ত
+                      ইত্যাদি। প্লাটিলেট ১০ হাজারের নিচে চলে গেলে দেহের ভেতরের
+                      অঙ্গপ্রত্যঙ্গ যেমন অন্ত্র, মস্তিষ্ক, কিডনিতে রক্তক্ষরণ হতে
+                      পারে।
+                    </p>
+                    <p class="text">
+                      সাধারনত ৪জন ডোনার থেকে ১ব্যাগ প্লাটিলেট করে, কিন্তু এখন
+                      উন্নত প্রযুক্তি কল্যাণে ১জন ডোনার থেকেই ১ব্যাগ প্লাটিলেট
+                      বের করা যায়। যে জন্য এফেরোসিস মেশিন বা প্লাটিলেট মেশিন
+                      দ্বারা এক জন ডোনারের কাছ থেকে ২৫০মিলির মতো ব্লাড নিয়ে
+                      মেশিনে প্রসেসিং করে প্লাটিলেট বের করে ব্লাডের বাকী অংশ
+                      টুকু আবার ডোনারের শরীরে পুশ ব্যাক করে দেয়। এই ভাবে ৬/৭বার
+                      করে। প্রতি ধাপে ১০-১৫মি সময় লাগে। মোট ১ ঘন্টা বা ১ ঘন্টা
+                      ১৫-২০মি সময় লাগে। (বিদ্রঃ মেশিন ভেদে সিস্টেম একটু আলাদা
+                      হয়)
+                    </p>
+                    <p class="text">
+                      কিন্তু প্লাটিলেট দিলে ১০-১৫ দিন পর আবার সে প্লাটিলেট দিতে
+                      পারে, কারন অণুচক্রিকা ছাড়া অন্য কিছু নেয়া হয়না। আর
+                      অণুচক্রিকার জীবন কাল ৩দিন যা ২/৩ দিনেই শরীরে ব্যাক করে।
+                      আরও একটা ব্যাপার হল প্লাটিলেট ডোনার একাই ৪জন ডোনারের কাজ
+                      করছে। এতে বাকী ৩ জন ডোনার অন্য রোগী কে বাচাঁতে পারবে।
+                      ডেঙ্গুরোগের আক্রান্তদের, ক্যান্সারের রোগিদের শুধু
+                      প্লাটিলেট বেশি লাগে৷ তবে শুধু প্লাটিলেট এফেরেসিস মেশিন আছে
+                      এমন নির্দিষ্ট কিছু হাসপাতাল ছাড়া সবখানে দেয়া যায় না।
+                    </p>
+                    <p class="text">
+                      (i) শুধু প্লাটিলেট দেয়ার ১৫-২০ দিন পর পুনরায় শুধু
+                      প্লাটিলেট কিংবা পুরো ব্যাগ রক্ত দিতে পারবেন। (ii) একবার
+                      whole blood অর্থাৎ পুরো ব্যাগ (৪৫০ মি.লি) রক্ত দিলে, আবার
+                      ৪ মাস পর রক্ত দিতে পারবেন। এবং শুধু প্লাটিলেট দিতে হলেও
+                      এক্ষেত্রে ৪ মাস বা ১২০ দিনই অপেক্ষা করতে হবে। অর্থাৎ একবার
+                      হোল ব্লাড দিলেই কমপক্ষে ১২০ দিন অপেক্ষা করতে হবে। (iii)
+                      যদি শুধুই প্লাটিলেট দেন, তবে ১৫-২০ দিন বা ১ মাস পরপর দিতে
+                      পারবেন। শুধু প্লাটিলেট দাতাদের আমরা মাসে একবার প্লাটিলেট
+                      দেয়ার পরামর্শ দিচ্ছি।
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- platelet registration section -->
+    <section class="platelet-registration-section">
+      <div class="container">
+        <h3></h3>
+        <div class="row">
+          <div class="card card-cus-platelet-registration">
+            <h3 class="card-header text-center card-cus-platelet-registration-header">
+              প্লাটিলেট ডোনার রেজিস্ট্রেশন ফরম
+            </h3>
+            <div class="card-body">
+              <form class="platelet-registration-form">
+                <div class="form-group mb-3">
+                  <label for="" class="form-label">নাম<sup>*</sup></label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id=""
+                    placeholder="নাম"
+                  />
+                </div>
+                <fieldset>
+                  <legend>যেখানে প্লাটিলেট দিতে পারবেন</legend>
+                  <div class="form-group mb-3">
+                    <label for="" class="form-label">জেলা<sup>*</sup></label>
+                    <select name="" class="form-control" id="">
+                      <option value="পঞ্চগড়">পঞ্চগড়</option>
+                      <option value="ঠাকুরগাঁও">ঠাকুরগাঁও</option>
+                      <option value="দিনাজপুর">দিনাজপুর</option>
+                      <option value="রংপুর">রংপুর</option>
+                      <option value="ঢাকা">ঢাকা</option>
+                      <option value="কুড়িগ্রাম">কুড়িগ্রাম</option>
+                      <option value="লালমনিরহাট">লালমনিরহাট</option>
+                      <option value="নীলফামারী">নীলফামারী</option>
+                      <option value="গাইবান্ধা">গাইবান্ধা</option>
+                      <option value="চট্টগ্রাম">চট্টগ্রাম</option>
+                      <option value="রাজশাহী">রাজশাহী</option>
+                      <option value="সিলেট">সিলেট</option>
+                      <option value="যশোর">যশোর</option>
+                      <option value="ময়মনসিংহ">ময়মনসিংহ</option>
+                      <option value="কুমিল্লা">কুমিল্লা</option>
+                      <option value="বরিশাল">বরিশাল</option>
+                      <option value="ফরিদপুর">ফরিদপুর</option>
+                      <option value="বগুড়া">বগুড়া</option>
+                      <option value="পাবনা">পাবনা</option>
+                      <option value="রাঙ্গামাটি">রাঙ্গামাটি</option>
+                      <option value="কুষ্টিয়া">কুষ্টিয়া</option>
+                      <option value="নোয়াখালী">নোয়াখালী</option>
+                      <option value="খুলনা">খুলনা</option>
+                      <option value="টাঙ্গাইল">টাঙ্গাইল</option>
+                      <option value="ভোলা">ভোলা</option>
+                      <option value="বান্দরবান">বান্দরবান</option>
+                      <option value="চাঁদপুর">চাঁদপুর</option>
+                      <option value="হবিগঞ্জ">হবিগঞ্জ</option>
+                      <option value="লক্ষীপুর">লক্ষীপুর</option>
+                      <option value="বরগুনা">বরগুনা</option>
+                      <option value="ঝালকাঠি">ঝালকাঠি</option>
+                      <option value="পিরোজপুর">পিরোজপুর</option>
+                      <option value="পটুয়াখালী">পটুয়াখালী</option>
+                      <option value="ঝিনাইদহ">ঝিনাইদহ</option>
+                      <option value="নড়াইল">নড়াইল</option>
+                      <option value="মাগুরা">মাগুরা</option>
+                      <option value="সাতক্ষিরা">সাতক্ষিরা</option>
+                      <option value="বাগেরহাট">বাগেরহাট</option>
+                      <option value="চুয়াডাঙ্গা">চুয়াডাঙ্গা</option>
+                      <option value="মেহেরপুর">মেহেরপুর</option>
+                      <option value="সিরাজগঞ্জ">সিরাজগঞ্জ</option>
+                      <option value="জয়পুরহাট">জয়পুরহাট</option>
+                      <option value="নাটোর">নাটোর</option>
+                      <option value="নওগাঁ">নওগাঁ</option>
+                      <option value="চাঁপাইনবাবগঞ্জ">চাঁপাইনবাবগঞ্জ</option>
+                      <option value="খাগড়াছড়ি">খাগড়াছড়ি</option>
+                      <option value="ফেনী">ফেনী</option>
+                      <option value="ব্রাহ্মণবাড়ীয়া">ব্রাহ্মণবাড়ীয়া</option>
+                      <option value="সুনামগঞ্জ">সুনামগঞ্জ</option>
+                      <option value="কক্সবাজার">কক্সবাজার</option>
+                      <option value="মৌলভীবাজার">মৌলভীবাজার</option>
+                      <option value="গোপালগঞ্জ">গোপালগঞ্জ</option>
+                      <option value="শরীয়তপুর">শরীয়তপুর</option>
+                      <option value="মাদারীপুর">মাদারীপুর</option>
+                      <option value="রাজবাড়ী">রাজবাড়ী</option>
+                      <option value="গাজীপুর">গাজীপুর</option>
+                      <option value="কিশোরগঞ্জ">কিশোরগঞ্জ</option>
+                      <option value="জামালপুর">জামালপুর</option>
+                      <option value="শেরপুর">শেরপুর</option>
+                      <option value="নেত্রকোনা">নেত্রকোনা</option>
+                      <option value="মুন্সীগঞ্জ">মুন্সীগঞ্জ</option>
+                      <option value="নরসিংদী">নরসিংদী</option>
+                      <option value="নারায়ণগঞ্জ">নারায়ণগঞ্জ</option>
+                      <option value="মানিকগঞ্জ">মানিকগঞ্জ</option>
+                      <option value="অন্যান্য">অন্যান্য</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="" class="form-label">ঠিকানা<sup>*</sup></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id=""
+                      placeholder="ঠিকানা"
+                    />
+                  </div>
+                </fieldset>
+                <fieldset>
+                  <legend>স্থায়ী ঠিকানা</legend>
+                  <div class="form-group mb-3">
+                    <label for="" class="form-label">জেলা<sup>*</sup></label>
+                    <select name="" class="form-control" id="">
+                      <option value="পঞ্চগড়">পঞ্চগড়</option>
+                      <option value="ঠাকুরগাঁও">ঠাকুরগাঁও</option>
+                      <option value="দিনাজপুর">দিনাজপুর</option>
+                      <option value="রংপুর">রংপুর</option>
+                      <option value="ঢাকা">ঢাকা</option>
+                      <option value="কুড়িগ্রাম">কুড়িগ্রাম</option>
+                      <option value="লালমনিরহাট">লালমনিরহাট</option>
+                      <option value="নীলফামারী">নীলফামারী</option>
+                      <option value="গাইবান্ধা">গাইবান্ধা</option>
+                      <option value="চট্টগ্রাম">চট্টগ্রাম</option>
+                      <option value="রাজশাহী">রাজশাহী</option>
+                      <option value="সিলেট">সিলেট</option>
+                      <option value="যশোর">যশোর</option>
+                      <option value="ময়মনসিংহ">ময়মনসিংহ</option>
+                      <option value="কুমিল্লা">কুমিল্লা</option>
+                      <option value="বরিশাল">বরিশাল</option>
+                      <option value="ফরিদপুর">ফরিদপুর</option>
+                      <option value="বগুড়া">বগুড়া</option>
+                      <option value="পাবনা">পাবনা</option>
+                      <option value="রাঙ্গামাটি">রাঙ্গামাটি</option>
+                      <option value="কুষ্টিয়া">কুষ্টিয়া</option>
+                      <option value="নোয়াখালী">নোয়াখালী</option>
+                      <option value="খুলনা">খুলনা</option>
+                      <option value="টাঙ্গাইল">টাঙ্গাইল</option>
+                      <option value="ভোলা">ভোলা</option>
+                      <option value="বান্দরবান">বান্দরবান</option>
+                      <option value="চাঁদপুর">চাঁদপুর</option>
+                      <option value="হবিগঞ্জ">হবিগঞ্জ</option>
+                      <option value="লক্ষীপুর">লক্ষীপুর</option>
+                      <option value="বরগুনা">বরগুনা</option>
+                      <option value="ঝালকাঠি">ঝালকাঠি</option>
+                      <option value="পিরোজপুর">পিরোজপুর</option>
+                      <option value="পটুয়াখালী">পটুয়াখালী</option>
+                      <option value="ঝিনাইদহ">ঝিনাইদহ</option>
+                      <option value="নড়াইল">নড়াইল</option>
+                      <option value="মাগুরা">মাগুরা</option>
+                      <option value="সাতক্ষিরা">সাতক্ষিরা</option>
+                      <option value="বাগেরহাট">বাগেরহাট</option>
+                      <option value="চুয়াডাঙ্গা">চুয়াডাঙ্গা</option>
+                      <option value="মেহেরপুর">মেহেরপুর</option>
+                      <option value="সিরাজগঞ্জ">সিরাজগঞ্জ</option>
+                      <option value="জয়পুরহাট">জয়পুরহাট</option>
+                      <option value="নাটোর">নাটোর</option>
+                      <option value="নওগাঁ">নওগাঁ</option>
+                      <option value="চাঁপাইনবাবগঞ্জ">চাঁপাইনবাবগঞ্জ</option>
+                      <option value="খাগড়াছড়ি">খাগড়াছড়ি</option>
+                      <option value="ফেনী">ফেনী</option>
+                      <option value="ব্রাহ্মণবাড়ীয়া">ব্রাহ্মণবাড়ীয়া</option>
+                      <option value="সুনামগঞ্জ">সুনামগঞ্জ</option>
+                      <option value="কক্সবাজার">কক্সবাজার</option>
+                      <option value="মৌলভীবাজার">মৌলভীবাজার</option>
+                      <option value="গোপালগঞ্জ">গোপালগঞ্জ</option>
+                      <option value="শরীয়তপুর">শরীয়তপুর</option>
+                      <option value="মাদারীপুর">মাদারীপুর</option>
+                      <option value="রাজবাড়ী">রাজবাড়ী</option>
+                      <option value="গাজীপুর">গাজীপুর</option>
+                      <option value="কিশোরগঞ্জ">কিশোরগঞ্জ</option>
+                      <option value="জামালপুর">জামালপুর</option>
+                      <option value="শেরপুর">শেরপুর</option>
+                      <option value="নেত্রকোনা">নেত্রকোনা</option>
+                      <option value="মুন্সীগঞ্জ">মুন্সীগঞ্জ</option>
+                      <option value="নরসিংদী">নরসিংদী</option>
+                      <option value="নারায়ণগঞ্জ">নারায়ণগঞ্জ</option>
+                      <option value="মানিকগঞ্জ">মানিকগঞ্জ</option>
+                      <option value="অন্যান্য">অন্যান্য</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="" class="form-label">ঠিকানা<sup>*</sup></label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id=""
+                      placeholder="ঠিকানা"
+                    />
+                  </div>
+                </fieldset>
+                <div class="form-group mb-3">
+                  <label for="" class="form-label"
+                    >ইমেইল ঠিকানা (যদি থাকে)</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id=""
+                    placeholder="ইমেইল"
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <label for="" class="form-label"
+                    >মোবাইল নাম্বার ( ইংরেজি )<sup>*</sup></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id=""
+                    placeholder="মোবাইল নাম্বার"
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <label for="" class="form-label"
+                    >রক্তের গ্রুপ<sup>*</sup></label
+                  >
+                  <select name="" class="form-control" id="">
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                  </select>
+                </div>
+                <div class="form-group mb-3">
+                  <label for="" class="form-label"
+                    >সর্বশেষ রক্ত দানের তারিখ<sup>*</sup></label
+                  >
+                  <input
+                    type="date"
+                    class="form-control"
+                    id=""
+                    placeholder="মোবাইল নাম্বার"
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <label for="" class="form-label"
+                    >সর্বশেষ রক্ত দানের তারিখ<sup>*</sup></label
+                  >
+                  <div class="form-group mb-3">
+                    <div class="form-check form-check-inline">
+                      <input
+                        checked
+                        class="form-check-input"
+                        type="radio"
+                        name=""
+                        id="inlineRadio1"
+                        value="option1"
+                      />
+                      <label class="form-check-label" for="inlineRadio1"
+                        >পুরুষ</label
+                      >
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name=""
+                        id="inlineRadio2"
+                        value="option2"
+                      />
+                      <label class="form-check-label" for="inlineRadio2"
+                        >নারী</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <p><small>নারী ডোনারদের ফোন নম্বর গোপন রাখা হবে।</small></p>
+                <div class="form-group mb-3">
+                  <label for="" class="form-label"
+                    >জন্ম তারিখঃ<sup>*</sup></label
+                  >
+                  <input
+                    type="date"
+                    class="form-control"
+                    id=""
+                    placeholder=""
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <label for="" class="form-label">পাসওয়ার্ড<sup>*</sup></label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id=""
+                    placeholder="পাসওয়ার্ড"
+                  />
+                </div>
+                <div class="form-group mb-3">
+                  <label for="" class="form-label"
+                    >কনফার্ম পাসওয়ার্ড<sup>*</sup></label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id=""
+                    placeholder="কনফার্ম পাসওয়ার্ড"
+                  />
+                </div>
+                <button class="btn btn-cus-platelet-registration">রেজিস্ট্রেশন</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- notice section -->
+    <section class="notice-section">
+      <div class="container">
+        <div class="notice-board text-center">
+          <p>
+            <span class="notice-text">নোটিশঃ</span> রক্তসন্ধানী সাথে কাজ করতে চাইলে, রক্তসন্ধানী
+            সম্পর্কে জানতে যোগাযোগ করুন
+            <a
+              href="tel:01716626487, 01778951824
+            "
+              ><span class="phone-number"> 000000000, 00000000</span></a
+            >
+          </p>
+          <p>
+            <a class="btn btn-danger btn-cus" target="_blank" href="/about.html"
+              >রক্তসন্ধানী সম্পর্কে বিস্তারিত জানতে ক্লিক করুন
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-left">
+              <p>&copy; 2019-2021 রক্তসন্ধানী || all Right reserved</p>
+            </div>
+          </div>
+          <div class="col-md-6 text-right">
+            <div class="footer-right text-right">
+              <p>
+                Developed By
+                <a target="_blank" href="https://coderitsolution.com/"
+                  >Mohiuddin Mohi</a
+                >
+                <span>&</span>
+                <a href="">Rajib Hossen</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

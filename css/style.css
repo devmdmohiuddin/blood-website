@@ -1,0 +1,576 @@
+/* fonts */
+@font-face {
+  font-family: "Kalpurush";
+  src: url("../fonts/Kalpurush.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+
+body {
+  font-family: "Kalpurush";
+  font-weight: bold;
+}
+
+/* header */
+.header-section {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.rokto-sondhani-logo {
+  width: 75px;
+}
+
+.navbar-nav .nav-cus-item {
+  margin-left: 20px;
+}
+
+.navbar-nav .nav-cus-link {
+  color: #ed0404;
+}
+
+/* home banner */
+.home-banner-section {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
+  ), url("../images/home_hero_img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-banner-section h2 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.home-banner-section .btn-cus-one, .home-banner-section .btn-cus-two {
+  padding: 7px 25px;
+  background-color: #ed0404;
+  font-family: inherit;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.home-banner-section .btn-cus-one:hover, .home-banner-section .btn-cus-two:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #ed0404;
+}
+
+/* registration button  */
+.registration-button-section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.rokto-sondhani-registration-button {
+  margin-bottom: 20px;
+}
+
+.rokto-sondhani-registration-button .btn-cus {
+  padding: 15px 80px;
+  background-color: #ed0404;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.rokto-sondhani-registration-button .btn-cus:hover {
+  background-color: #333;
+}
+
+.platelet-registration-button p {
+  color: #212529;
+}
+
+.platelet-registration-button .btn-cus {
+  background-color: #333;
+  border-radius: 100px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.platelet-registration-button .btn-cus:hover {
+  background-color: #ed0404;
+}
+
+/* notice */
+.notice-section {
+  padding: 50px 0;
+  background-color: #C6C6C6;
+}
+
+.notice-board .notice-text {
+  color: #ed0404;
+}
+
+.notice-board a {
+  text-decoration: none;
+  color: #ed0404;
+}
+
+.notice-board p {
+  color: #000;
+  font-size: 20px;
+}
+
+.notice-board .btn-cus {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* footer */
+.footer-section {
+  padding: 10px 0;
+  background-color: #333;
+  color: #f3f3f3;
+  font-weight: normal;
+}
+
+.footer-left p, .footer-right p {
+  margin-bottom: 0;
+}
+
+.footer-left a, .footer-right a {
+  text-decoration: none;
+  color: #ed0404;
+}
+
+/* platelet banner */
+.platelet-banner-section {
+  padding: 50px 0;
+}
+
+.platelet-banner-section h2 {
+  color: #ed0404;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.platelet-banner-section .btn-cus-platelet {
+  padding: 7px 25px;
+  background-color: #ed0404;
+  font-family: inherit;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.platelet-banner-section .btn-cus-platelet:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #ed0404;
+  border: 1px solid #ed0404;
+}
+
+.platelet-cus-card {
+  border: 1px solid red;
+}
+
+.platelet-cus-card-header {
+  background-color: #ed0404;
+  color: #fff;
+}
+
+.btn-cus-platelet-registration {
+  background-color: #333;
+  border-radius: 100px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-cus-platelet-registration:hover {
+  background-color: #ed0404;
+  color: #fff;
+}
+
+/* platelet information */
+.platelet-information-section {
+  padding-bottom: 50px;
+}
+
+.platelet-cus-card {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.modal-body-cus-platelet p {
+ font-size: 16px;
+}
+
+/* platelet registraton section */
+.platelet-registration-section {
+  padding: 50px 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card-cus-platelet-registration {
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.card-cus-platelet-registration-header {
+  background-color: #ed0404;
+  padding: 15px 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.platelet-registration-form {
+  font-weight: normal;
+}
+
+.platelet-registration-form sup {
+  color: #ed0404;
+  margin-left: 2px;
+}
+
+.platelet-registration-form fieldset {
+  border: 2px dashed red;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.platelet-registration-form fieldset legend {
+  font-weight: bold;
+}
+
+.platelet-registration-form .btn-cus-platelet-registration {
+  background-color: #ED0404;
+  padding: 10px 50px;
+  margin-left: 0;
+  transition: all 0.3s ease;
+}
+
+.platelet-registration-form .btn-cus-platelet-registration:hover {
+  background-color: #333;
+}
+
+/* registration section */
+.registration-section {
+  padding: 50px 0;
+}
+
+.registration-section .registration-form {
+  font-weight: normal;
+}
+
+.registration-section .registration-form sup {
+  color: #ed0404;
+  margin-left: 2px;
+  font-weight: bold;
+}
+
+.registration-section .registration-form fieldset {
+  border: 2px dashed #ed0404;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.registration-section .registration-form fieldset legend {
+  font-weight: bold;
+}
+
+.registration-form .btn-cus-registration {
+  background-color: #ed0404;
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 100px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.registration-form .btn-cus-registration:hover {
+  background-color: #333;
+}
+
+.card-cus-registration {
+  width:70%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card-cus-registration-header {
+  background-color: #ED0404;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 0;
+  color: #FFFFFF;
+}
+
+.requirement-filed-wrapper {
+  padding-top: 30px;
+  font-weight: normal;
+}
+
+.requirement-filed-wrapper span {
+  display: inline-block;
+  color: #ED0404;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px dashed #ED0404;;
+}
+
+/* login section */
+.login-section {
+  padding: 50px 0;
+}
+
+.card-cus-login {
+  width:70%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card-cus-login-header {
+  background-color: #ED0404;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 0;
+  color: #FFFFFF;
+}
+
+.login-form {
+  font-weight: normal;
+}
+
+.login-form .forgot-password {
+  color: #ED0404;
+  font-weight: bold;
+}
+
+.login-form sup {
+  color: #ED0404;
+  margin-left: 2px;
+}
+
+.login-form .btn-cus-login-registration {
+  background-color: #ED0404;
+  border-radius: 100px;
+  color: #fff;
+  padding: 10px 40px;
+  transition: all 0.3s ease;
+}
+
+.login-form .btn-cus-login-registration:hover {
+  background-color: #333;
+}
+
+/* organization section */
+.organization-section {
+  padding: 50px 0;
+}
+
+.organization-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.organization-heading span {
+  font-size: 25px;
+  padding: 10px 50px;
+  display: inline-block;
+  background-color: #ed0404;
+}
+
+.organization-content {
+  padding: 10px;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.organization-name, .organization-address {
+  color: #000;
+  font-size: 20px;
+}
+
+.organization-number {
+  color: #212529;
+  font-weight: normal;
+}
+
+/* volunteer section */
+.volunteer-section {
+  padding: 50px 0;
+}
+
+.volunteer-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.volunteer-heading span {
+  font-size: 25px;
+  padding: 10px 50px;
+  display: inline-block;
+  background-color: #ed0404;
+}
+
+.card-cus-volunteer {
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.card-cus-volunteer a {
+  text-decoration: none;
+}
+
+.card-cus-volunteer img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px auto;
+}
+
+.volunteer-name, .volunteer-designation {
+  font-weight: bold;
+}
+
+.volunteer-address {
+  font-weight: normal;
+}
+
+/* blog section */
+.blog-section {
+  padding: 50px 0;
+}
+
+.badge-cus-blog {
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #ed0404;
+}
+
+.badge-cus-blog:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+.blog-section h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.blog-section h2:after {
+  content: "";
+  width: 100px;
+  height: 5px;
+  display: block;
+  background-color: red;
+  border-radius: 100px;
+}
+
+.blog-card-wrapper {
+  padding: 50px 0;
+}
+
+.card-cus-blog {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  text-decoration: none;
+  display: block;
+}
+
+.card-cus-blog img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title-cus-blog {
+  font-weight: bold;
+}
+
+.card-cus-blog small {
+  color: #606060;
+  font-weight: normal;
+  margin-bottom: 10px;
+  display: block;
+} 
+
+
+/* single blog section */
+.single-blog-section {
+  padding: 50px 0;
+}
+
+.single-blog-section .blog-writer-name {
+  font-weight: 400;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.single-blog-section .blog-date {
+  color: #606060;
+  font-weight: normal;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.blog-description img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+.blog-share h6 {
+  font-weight: bold;
+}
+
+.blog-share a {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.different-posts-wrapper {
+  padding: 50px 0;
+}
+
+/* about */
+.about-section {
+  padding: 50px 0;
+}
+
+.about-section p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
